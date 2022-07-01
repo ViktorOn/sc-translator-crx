@@ -1,0 +1,596 @@
+{
+    "extName": {
+        "message": "ScTranslator"
+    },
+    "extDescription": {
+        "message": "Multiple sources, various options, concise and attention to detail. Support webpage translate, PDF viewer, custom source."
+    },
+    "extActivateExtensionDescription": {
+        "message": "Активировать расширение"
+    },
+    "extTranslateCommandDescription": {
+        "message": "Переведите выбранный текст"
+    },
+    "extListenCommandDescription": {
+        "message": "Слушайте выбранный вами текст"
+    },
+    "extCallOutCommandDescription": {
+        "message": "Вызов расширения на веб-странице"
+    },
+    "extToggleAutoInsertResultDescription": {
+        "message": "Переключение параметра \"Автоматически вставлять результаты перевода на веб-страницы\""
+    },
+    "extTranslateCurrentPageDescription": {
+        "message": "Перевести текущую страницу"
+    },
+    "extOpenSeparateWindowDescription": {
+        "message": "Закрыть расширение на веб-странице"
+    },
+    "extCloseCommandDescription": {
+        "message": "Закрыть расширение на веб-странице"
+    },
+    "extOpenWithPdfViewerDescription": {
+        "message": "Открыть страницу в программе просмотра PDF"
+    },
+    "extSwitchWTDisplayModeDescription": {
+        "message": "Switch the display mode of webpage translations inside the webpage"
+    },
+    "titleSeparateWindow": {
+        "message": "Отдельное окно перевода"
+    },
+    "optionsTitle": {
+        "message": "Параметры"
+    },
+    "optionsTranslate": {
+        "message": "Перевести"
+    },
+    "optionsHistory": {
+        "message": "История"
+    },
+    "optionsLanguage": {
+        "message": "Язык"
+    },
+    "optionsEnableContextMenus": {
+        "message": "Включить контекстные меню"
+    },
+    "optionsDefaultTranslateOptions": {
+        "message": "Параметры перевода по умолчанию"
+    },
+    "optionsSource": {
+        "message": "Источник"
+    },
+    "optionsFrom": {
+        "message": "Исходный язык"
+    },
+    "optionsTo": {
+        "message": "Язык перевода"
+    },
+    "optionsTranslateDirectly": {
+        "message": "Translate directly after selecting text"
+    },
+    "optionsTranslateBlackListMode": {
+        "message": "Black list mode"
+    },
+    "optionsEnableHistory": {
+        "message": "Enable history function"
+    },
+    "optionsHistoryBlackListMode": {
+        "message": "Black list mode"
+    },
+    "optionsMoreFeaturesOrBugReports": {
+        "message": "More features or bug reports"
+    },
+    "optionsTheme": {
+        "message": "Тема"
+    },
+    "optionsDarkMode": {
+        "message": "Темный режим"
+    },
+    "optionsShowButtonAfterSelect": {
+        "message": "Показывать кнопки после выделения текста"
+    },
+    "optionsShowButtonAfterSelectDescription": {
+        "message": "When you select some text and release the left mouse button, the buttons you checked below will be displayed. The order of the buttons is related to the order in which you checked. If you don't want to show any buttons, just uncheck all the buttons."
+    },
+    "optionsAudio": {
+        "message": "Аудио"
+    },
+    "optionsDefaultAudioOptions": {
+        "message": "Параметры звука по умолчанию"
+    },
+    "optionsTranslateWithKeyPress": {
+        "message": "Press \"Ctrl\" key and select text to translate"
+    },
+    "optionsInWebPage": {
+        "message": "На веб-страницы"
+    },
+    "optionsDomainfilter": {
+        "message": "Фильтрация доменных имен"
+    },
+    "optionsUseDotCn": {
+        "message": "Use \".cn\" in URL (For example: translate.google.cn)"
+    },
+    "optionsMode": {
+        "message": "Режим"
+    },
+    "optionsMultipleTranslateMode": {
+        "message": "Multiple translate mode"
+    },
+    "optionsSourceList": {
+        "message": "список источников"
+    },
+    "optionsEnabled": {
+        "message": "Включено"
+    },
+    "optionsNotEnabled": {
+        "message": "Выключено"
+    },
+    "optionsEnablePdfViewer": {
+        "message": "Включить просмотрщик PDF"
+    },
+    "optionsEnablePdfViewerDescription": {
+        "message": "When you enable this option, this extension will redirect the URL of all PDF files. With the PDF viewer, this extension can be used on PDF files. If you want to enable this extension for local PDF files as well, check \"Allow access to file URLs\" in extension management."
+    },
+    "optionsPreferredLanguage": {
+        "message": "Предпочтительный язык"
+    },
+    "optionsPreferredLanguageDescription": {
+        "message": "When the target language of translation is \"auto\", it will be translated into the \"preferred language\". When the language of the text is the same as the \"preferred language\", it will be translated into \"second preferred Language\"."
+    },
+    "optionsKeyboardShortcut": {
+        "message": "Сочетание клавиш"
+    },
+    "optionsCallOutCommandDescription": {
+        "message": "You can call out extension in web page when the extension is enabled in web page with this keyboard shortcut. When you click this keyboard shortcut with the extension called out, it focuses on the text box."
+    },
+    "optionsCustomizeHere": {
+        "message": "Настроить здесь"
+    },
+    "optionsButtonsPosition": {
+        "message": "Положение кнопки"
+    },
+    "optionsVolume": {
+        "message": "Volume"
+    },
+    "optionsPlaybackRate": {
+        "message": "Скорость воспроизведения"
+    },
+    "optionsPlayTestAudio": {
+        "message": "Воспроизвести тестовый звук"
+    },
+    "optionsHideButtonAfterFixedTime": {
+        "message": "Скрыть кнопку через определенное время"
+    },
+    "optionsTheFixedTimeOfHidingButton": {
+        "message": "Фиксированное время скрытия кнопки"
+    },
+    "optionsRespondToSeparateWindow": {
+        "message": "Отклик на отдельное окно перевода"
+    },
+    "optionsRememberStwSizeAndPosition": {
+        "message": "Запомнить размер и положение отдельного окна перевода"
+    },
+    "optionsStwDescription": {
+        "message": "The separate translate window uses the \"Multiple translate mode\" translate panel, which shares the same set of translation settings. The separate translate window can also respond to keyboard shortcuts."
+    },
+    "optionsResetSizeAndPosition": {
+        "message": "Сбросить размер и положение"
+    },
+    "optionsSecondPreferredLanguage": {
+        "message": "Второй предпочтительный язык"
+    },
+    "optionsPinThePanelWhileOpeningIt": {
+        "message": "Pin the panel while opening it"
+    },
+    "optionsPinThePanelWhileOpeningItDescription": {
+        "message": "The panel will be pinned automatically while translating or the shortcut of \"Call out extension in web page\" is used."
+    },
+    "optionsRememberPositionOfPinnedPanel": {
+        "message": "Запомнить положение закрепленной панели"
+    },
+    "optionsRememberPositionOfPinnedPanelDescription": {
+        "message": "When you click the pin icon in the unpinned state of the panel, it will automatically move to the last pinned position. Moving the panel in the pinned state will automatically synchronize the current position to all pages."
+    },
+    "optionsTranslatePanel": {
+        "message": "Панель перевода"
+    },
+    "optionsMaxHeightOfTranslatePanel": {
+        "message": "Максимальная высота панели перевода"
+    },
+    "optionsPercentage": {
+        "message": "В процентах"
+    },
+    "optionsWidthOfTranslatePanel": {
+        "message": "Ширина панели перевода"
+    },
+    "optionsFontSizeOfTranslatePanel": {
+        "message": "Размер шрифта панели перевода"
+    },
+    "optionsStwAutoRespondDescription": {
+        "message": "Separate translate window will auto respond to the translate request which you click the \"translate\" item of context menus in the extension unavailable page."
+    },
+    "optionsRememberHistoryPanelStatus": {
+        "message": "Remember the status of translate history panel"
+    },
+    "optionsTranslateDirectlyWhilePinning": {
+        "message": "Translate directly while translate panel pinning"
+    },
+    "optionsDoNotRespondInTextBox": {
+        "message": "Do not respond in text box"
+    },
+    "optionsDoNotRespondInTextBoxDescription": {
+        "message": "Extension will not show button and will not auto translate if you select some text in text box."
+    },
+    "optionsMore": {
+        "message": "Еще"
+    },
+    "optionsChangeLog": {
+        "message": "Список изменений"
+    },
+    "optionsAutoTranslateAfterInput": {
+        "message": "Автоматический перевод после ввода в поле ввода"
+    },
+    "optionsAutoTranslateAfterInputDescription": {
+        "message": "Extension will send a translate request automatically with the text you input in input box in 0.6s. If you disable it, you will need to use \"Ctrl + Enter\" keyboard shortcut to trigger the translate request."
+    },
+    "optionsContextMenus": {
+        "message": "Контекстные меню"
+    },
+    "optionsClipboard": {
+        "message": "Буфер обмена"
+    },
+    "optionsAllowExtensionToReadClipboard": {
+        "message": "Allow extension to read clipboard"
+    },
+    "optionsAllowExtensionToReadClipboardDescription": {
+        "message": "Some features require you to allow the extension to read the clipboard to get the lase text. For example: Paste in the input box automatically."
+    },
+    "optionsReadClipboardAutomatically": {
+        "message": "Paste in the input box automatically"
+    },
+    "optionsReadClipboardAutomaticallyDescription": {
+        "message": "The last clipboard text will be automatically pasted in the input box while opening popup page or separate translate window."
+    },
+    "optionsEnableInsertResult": {
+        "message": "Allow extension to insert translate results in web pages"
+    },
+    "optionsEnableInsertResultDescription": {
+        "message": "When you enable this option and the result can be inserted, there will be an \"insert\" icon behind the translate result. After clicking the icon, extension will insert the translate result behind the text you selected. Clicking the icon again will remove the previously inserted translate result."
+    },
+    "optionsBeta": {
+        "message": "This function may not be fully developed, and there may be compatibility and destructive issues. If you want to report a bug or make a feature suggestion, please contact the developer."
+    },
+    "optionsAutoInsertResult": {
+        "message": "Insert translate results in web pages automatically"
+    },
+    "optionsAutoInsertResultDescription": {
+        "message": "After enabling this option, the extension will insert translate result in web page automatically when the translate request is completed and can be inserted. You can toggle this option through \"Toggle the option of 'insert translate results in web pages automatically'\" keyboard shortcut."
+    },
+    "optionsTextPreprocessing": {
+        "message": "Предобработка текста"
+    },
+    "optionsTextPreprocessingDescription": {
+        "message": "\"Text preprocessing\" use the regular expressions to match the string and then replace them. If you are not familiar with regular expressions, you are not recommended to write your own regular expressions."
+    },
+    "optionsReplaceWithRegExp": {
+        "message": "Заменить регулярным выражением"
+    },
+    "optionsPattern": {
+        "message": "Шаблон"
+    },
+    "optionsFlags": {
+        "message": "Флаги"
+    },
+    "optionsReplacement": {
+        "message": "Замена"
+    },
+    "optionsModify": {
+        "message": "Изменить"
+    },
+    "optionsPatternCanNotBeEmpty": {
+        "message": "Pattern can not be empty."
+    },
+    "optionsTestSomeText": {
+        "message": "Test some text"
+    },
+    "optionsTestSomeTextDescription": {
+        "message": "After entering the text in the text box on the left below, the processed text will be displayed in the text box on the right."
+    },
+    "optionsConvertCamelCase": {
+        "message": "Convert camel case"
+    },
+    "optionsLearnMoreAboutTextPreprocessing": {
+        "message": "Learn more about text preprocessing."
+    },
+    "optionsCustomizeStyle": {
+        "message": "Customize style"
+    },
+    "optionsCustomizeStyleDescription": {
+        "message": "The CSS you input here will inject in all page except the options page."
+    },
+    "optionsCustomizeStyleNotice": {
+        "message": "Notice: there is no guarantee that elements or class names wil not be changed. Once elements or class names are changed, the CSS you input might cause \"style disorder\", then, you might need to adjust the CSS you input here."
+    },
+    "optionsPreview": {
+        "message": "Preview:"
+    },
+    "optionsButtonTranslate": {
+        "message": "Translate"
+    },
+    "optionsButtonListen": {
+        "message": "Listen"
+    },
+    "optionsButtonCopy": {
+        "message": "Copy"
+    },
+    "optionsWebPageTranslating": {
+        "message": "Web page translating"
+    },
+    "optionsDisplayMode": {
+        "message": "The display mode of translate results"
+    },
+    "optionsOriginalText": {
+        "message": "Original text"
+    },
+    "optionsTranslation": {
+        "message": "Translation"
+    },
+    "optionsWebPageTranslatingDescription": {
+        "message": "\"Webpage translating\" is a feature that can translate the whole webpage with the language you want. You can activate webpage translating through context menu or keyboard shortcut. After activating webpage translating, there will be a control bar in the bottom right corner of the page."
+    },
+    "optionsWebPageTranslateDirectly": {
+        "message": "Translate directly after activating webpage translating"
+    },
+    "optionsWebPageTranslateDirectlyDescription": {
+        "message": "After enabling this option and you activating webpage translating, you don't need to click the \"Start webpage translating\" button, the webpage will be automatically translated."
+    },
+    "optionsNoControlBarWhileFirstActivating": {
+        "message": "Not displaying control bar while first activating"
+    },
+    "optionsNoControlBarWhileFirstActivatingDescription": {
+        "message": "This option is only available when you enable the \"Translate directly after activating webpage translating\" option. After enabling this option, the control bar will not be displayed while the first time of \"Webpage translating\" activating. After first activating, you can activate \"Webpage translating\" again to display or hide the control bar."
+    },
+    "optionsBeforeSendingTranslateRequest": {
+        "message": "Before sending translate request"
+    },
+    "optionsBeforeSendingTranslateRequestDescription": {
+        "message": "The text you want to translate will be processed before sending a translate request."
+    },
+    "optionsAfterSelectingText": {
+        "message": "После выделения текста"
+    },
+    "optionsAfterSelectingTextDescription": {
+        "message": "The text you selected in the webpage will be processed. When the text is emptied through regular expressions, the button will not be displayed, and the text will not be automatically translated. Non-letter has been replaced as empty by default."
+    },
+    "optionsTranslateToTargetLanguage": {
+        "message": "Перевести на целевой язык"
+    },
+    "optionsAutoPasteInTheInputBoxErrorDescription": {
+        "message": "Error: Failed to get the permission of reading clipboard. You need to allow extension to read your clipboard. You can click on the icon on the right of the URL bar to allow this extension to read the clipboard. You can also allow the requestion in the following link:"
+    },
+    "optionsMultipleTranslateSourceListDescription": {
+        "message": "The source you check will be displayed in panel by default. The order of the sources is related to the order in which you checked."
+    },
+    "optionsCustomTranslateSource": {
+        "message": "Пользовательский провайдер перевода"
+    },
+    "optionsCustomTranslateSourceDescription": {
+        "message": "Вы можете добавлять пользовательских провайдеров перевода, созданные вами или другими."
+    },
+    "optionsCustomTranslateSourceLearn": {
+        "message": "Узнайте больше о пользовательском провайдере перевода."
+    },
+    "optionsURLCanNotBeEmpty": {
+        "message": "URL-адрес не может быть пустым."
+    },
+    "optionsEncourage": {
+        "message": "If you find \"ScTranslator\" helpful, you can encourage the developer by giving a five-star rating on the extension store or clicking the \"Star\" button on the GitHub page, thank you very much!"
+    },
+    "optionsSyncSettingsToOtherBrowsers": {
+        "message": "Синхронизируйте настройки с другими браузерами"
+    },
+    "optionsSyncSettingsToOtherBrowsersDescription": {
+        "message": "You need to log in to the same account in the same browser in different environments to enable this feature. And you need to make sure that your account has enabled the sync of extensions."
+    },
+    "optionsSyncSettings": {
+        "message": "Настройки синхронизации"
+    },
+    "optionsDisplayOfTranslation": {
+        "message": "Отображение перевода"
+    },
+    "optionsDisplayOfTranslationDescription": {
+        "message": "You can decide what content will be displayed on the translation panel."
+    },
+    "optionsEnhancementOfDisplay": {
+        "message": "Улучшение отображения"
+    },
+    "optionsAddUnderlineToTranslations": {
+        "message": "Добавить переводам подчеркивание"
+    },
+    "optionsMouseHoverOverTranslation": {
+        "message": "Display the original text when the mouse hovers over the translation"
+    },
+    "optionsMouseHoverOverOriginalText": {
+        "message": "Display the translation when the mouse hovers over the original text"
+    },
+    "optionsNotDisplayingTheTranslationsDiscretely": {
+        "message": "Not displaying the translations discretely"
+    },
+    "optionsCustomWebpageTranslateSource": {
+        "message": "Custom webpage translate source"
+    },
+    "optionsCustomWebpageTranslateSourceDescription": {
+        "message": "You can add custom webpage translate sources which built by yourself or others."
+    },
+    "optionsCustomWebpageTranslateSourceLearn": {
+        "message": "Узнайте больше о пользовательском провайдере перевода веб-страницы."
+    },
+    "themePreset": {
+        "message": "Преднастройка"
+    },
+    "themeTextColor": {
+        "message": "Цвет текста"
+    },
+    "themeBackgroundColor": {
+        "message": "Фоновый цвет"
+    },
+    "themeThemeName": {
+        "message": "Название темы"
+    },
+    "themeSaveColor": {
+        "message": "Сохранить цвет"
+    },
+    "contentInputHere": {
+        "message": "Введите сюда"
+    },
+    "contentTranslateAfterInput": {
+        "message": "Перевести после ввода"
+    },
+    "contentResult": {
+        "message": "Результат"
+    },
+    "contentHistoryTitle": {
+        "message": "История"
+    },
+    "contentNoRecord": {
+        "message": "Не записывать"
+    },
+    "contentSwitchDisplayModeOfResult": {
+        "message": "Switch the display mode of translate results"
+    },
+    "contentStartWebPageTranslating": {
+        "message": "Начать перевод веб-страницы"
+    },
+    "contentCloseWebPageTranslating": {
+        "message": "Закрыть перевод веб-страницы"
+    },
+    "contentAddToCollection": {
+        "message": "Добавить текущие перевод(ы) в коллекцию"
+    },
+    "contentRemoveFromCollection": {
+        "message": "Удалить из коллекции"
+    },
+    "popupEnableTranslate": {
+        "message": "Включить перевод на этом сайте"
+    },
+    "popupDisableTranslate": {
+        "message": "Отключить перевод на этом сайте"
+    },
+    "popupEnableHistory": {
+        "message": "Включить историю на этом сайте"
+    },
+    "popupDisableHistory": {
+        "message": "Отключить историю на этом сайте"
+    },
+    "popupNotAvailable": {
+        "message": "Недоступно на этом сайте"
+    },
+    "popupOpenOptionsPage": {
+        "message": "Открыть страницу параметров"
+    },
+    "popupEnableDarkMode": {
+        "message": "Включить темный режим"
+    },
+    "popupDisableDarkMode": {
+        "message": "Отключить темный режим"
+    },
+    "popupSwitchToTheNextTheme": {
+        "message": "Переключиться на следующую тему"
+    },
+    "popupOpenCollectionPage": {
+        "message": "Открыть страницу коллекции"
+    },
+    "collectionTitle": {
+        "message": "Коллекция"
+    },
+    "collectionSearchText": {
+        "message": "Поиск текста"
+    },
+    "wordTranslate": {
+        "message": "Перевести"
+    },
+    "wordRequesting": {
+        "message": "Запрос..."
+    },
+    "wordRetry": {
+        "message": "Повторить"
+    },
+    "wordSave": {
+        "message": "Сохранить"
+    },
+    "wordCancel": {
+        "message": "Отменить"
+    },
+    "wordRelated": {
+        "message": "Связь"
+    },
+    "wordName": {
+        "message": "Название"
+    },
+    "wordResult": {
+        "message": "Результат"
+    },
+    "wordDictionary": {
+        "message": "Словарь"
+    },
+    "wordPhonetic": {
+        "message": "Фонетика"
+    },
+    "wordExample": {
+        "message": "Пример"
+    },
+    "wordText": {
+        "message": "Текст"
+    },
+    "wordDate": {
+        "message": "Date"
+    },
+    "wordNonEnglish": {
+        "message": "Не английский"
+    },
+    "sentenceAddTranslateSource": {
+        "message": "Пожалуйста, добавьте провайдера перевода."
+    },
+    "sentenceNoResult": {
+        "message": "Нет результатов."
+    },
+    "sentenceSearchLanguages": {
+        "message": "Поиск языков"
+    },
+    "sentenceRefreshPage": {
+        "message": "Обновить страницу"
+    },
+    "contextMenus_OPEN_THIS_PAGE_WITH_PDF_VIEWER": {
+        "message": "Открыть страницу в программе просмотра PDF"
+    },
+    "contextMenus_OPEN_SEPARATE_WINDOW": {
+        "message": "Открыть отдельное окно перевода"
+    },
+    "contextMenus_TRANSLATE_SELECTION_TEXT": {
+        "message": "Переведите выбранный текст"
+    },
+    "contextMenus_LISTEN_SELECTION_TEXT": {
+        "message": "Прослушайте выбранный вами текст"
+    },
+    "contextMenus_TRANSLATE_CURRENT_PAGE": {
+        "message": "Перевести текущую страницу"
+    },
+    "errorCode_CONNECTION_TIMED_OUT": {
+        "message": "Ошибка: время ожидания подключения истекло."
+    },
+    "errorCode_RESULT_ERROR": {
+        "message": "Ошибка: сервер возвращает неожиданный результат."
+    },
+    "errorCode_LANGUAGE_NOT_SOPPORTED": {
+        "message": "Ошибка: источник перевода не поддерживает этот язык."
+    },
+    "errorCode_NO_RESULT": {
+        "message": "Ошибка: нет результата перевода."
+    },
+    "errorCode_EXTENSION_UPDATED": {
+        "message": "Ошибка: возможно, расширение было обновлено. Попробуйте обновить страницу, чтобы повторно активировать расширение."
+    },
+    "errorCode_SOURCE_ERROR": {
+        "message": "Ошибка: источник перевода не найден."
+    }
+}
